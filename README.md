@@ -1,4 +1,4 @@
-# Ruby Enumerable
+# School library
 
 <a name="readme-top"></a>
 
