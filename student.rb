@@ -1,17 +1,18 @@
-require "Person.rb"
+# frozen_string_literal: true
 
+require 'Person'
+
+# student.rb
 class Student < Person
-    def initialize(classroom, name, age, parent_permission)
-        super(name, age, parent_permission)
+  def initialize(classroom, name, age, parent_permission)
+    super(name, age, parent_permission)
 
-        @classroom=classroom
+    @classroom = classroom
 
-        attr_reader:classroom
+    attr_reader :classroom
+  end
 
-    end
-
-    def play_hooky
-        "¯\(ツ)/¯"
-    end
-
+  def play_hooky
+    "¯\(ツ)/¯"
+  end
 end

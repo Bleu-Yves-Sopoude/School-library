@@ -1,18 +1,20 @@
+# frozen_string_literal: true
+
 require_relative 'person'
 
+# teacher.rb
 class Teacher < Person
-    def initialize(specialization , age ,name='Unknown', parent_permission: true)
-        super(age,name, parent_permission: parent_permission)
-        @specialization=specialization
-    end
+  def initialize(specialization, age, name = 'Unknown', parent_permission: true)
+    super(age, name, parent_permission:)
+    @specialization = specialization
+  end
 
-    attr_reader :specialization
+  attr_reader :specialization
 
-        def can_use_service?
-            return true
-        end
-        
-    end
+  def can_use_service?
+    true
+  end
+end
 
-teacher1=Teacher.new('Biochimie',24,'Dudo',true)
-teacher1.can_use_service?()
+teacher1 = Teacher.new('Biochimie', 24, 'Dudo', true)
+teacher1.can_use_service?
