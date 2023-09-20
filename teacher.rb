@@ -1,6 +1,4 @@
-# frozen_string_literal: true
-
-require_relative 'person'
+require 'person'
 
 # teacher.rb
 class Teacher < Person
