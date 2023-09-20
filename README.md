@@ -4,24 +4,26 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Usage](#usage)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [School library](#school-library)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 School-library ](#-school-library-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Usage](#usage)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-# 📖 Ruby Enumerable <a name="about-project"></a>
+# 📖 School-library <a name="about-project"></a>
 
-**Ruby Enumerable** is a Enumerable created using Ruby language.
+**School-library** School library is a tool to record what books are in the library and who borrows them. The app will allow to: Add new students or teachers. Add new books. Save records of who borrowed a given book and when.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -38,9 +40,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **All method on list**
-- **Any method on list**
-- **filter method on list**
+- **OOP**
+- **innheniritance**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,7 +64,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/devendra-alt/Enumerable
+  git clone https://github.com/Bleu-Yves-Sopoude/School-library
 ```
 
 ### Usage
@@ -79,10 +81,6 @@ To run the project, execute the following command:
 
 👤 **Author**
 
-- GitHub: [@devendra-alt](https://github.com/devendra-alt)
-- Twitter: [@Devendra5101](https://twitter.com/Devendra5101)
-- LinkedIn: [Devendra Mulewa](https://linkedin.com/in/devendramulewa)
-
 👤 **Bleu Yves Sopoude (MrBlue)**
 
 - GitHub: [@Bleu-Yves-Sopoude](https://github.com/Bleu-Yves-Sopoude)
@@ -95,8 +93,8 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Conneting Frontend**
-- [ ] **Adding more methods**
+- [ ] **Add UML Diagram**
+- [ ] **Adding Baic UI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
