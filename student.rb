@@ -1,4 +1,4 @@
-require 'Person'
+require './Person'
 
 # student.rb
 class Student < Person
