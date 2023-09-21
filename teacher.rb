@@ -1,4 +1,4 @@
-require 'person'
+require './person.rb'
 
 # teacher.rb
 class Teacher < Person
