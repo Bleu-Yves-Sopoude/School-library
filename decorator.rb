@@ -1,4 +1,5 @@
 require './nameable'
+
 # decorator.rb
 class Decorator < Nameable
   def initialize(nameable)
