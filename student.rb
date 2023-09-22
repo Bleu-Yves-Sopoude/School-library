@@ -1,7 +1,4 @@
-# frozen_string_literal: true
-
 require './Person'
-
 # student.rb
 class Student < Person
   def initialize(classroom, name, age, parent_permission: true)

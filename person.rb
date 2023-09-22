@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require './nameable'
 require './trimmer'
 require './capitalize'
