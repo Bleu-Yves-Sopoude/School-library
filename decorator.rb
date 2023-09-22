@@ -1,4 +1,7 @@
+# frozen_string_literal: true
+
 require './nameable'
+
 # decorator.rb
 class Decorator < Nameable
   def initialize(nameable)

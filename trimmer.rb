@@ -1,4 +1,7 @@
+# frozen_string_literal: true
+
 require './decorator'
+
 # trimmer.rb
 class TrimmerDecorator < Decorator
   def correct_name
