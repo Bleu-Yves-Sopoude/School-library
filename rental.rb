@@ -1,4 +1,3 @@
-
 # rental.rb
 
 class Rental
