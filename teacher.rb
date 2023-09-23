@@ -13,6 +13,3 @@ class Teacher < Person
     true
   end
 end
-
-teacher1 = Teacher.new('Biochimie', 24, 'Dudo', true)
-teacher1.can_use_service?
