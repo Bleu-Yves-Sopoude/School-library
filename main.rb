@@ -16,6 +16,7 @@ def run_method(option, app)
   case option
   when 1
     app.list_books
+    
   when 2
     app.list_people
   when 3

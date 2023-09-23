@@ -18,9 +18,11 @@ class App
     @books << Book.new('The Hobbit', 'J. R. R. Tolkien')
   end
 
-  def list_people(index: false)
+  def list_books(index: false)
     if index
+      
       @people.each_with_index do |person, index|
+        binding.pry
         puts "#{index}) [#{person.class.name}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
       end
     else
@@ -61,7 +63,7 @@ class App
     @books << Book.new(title, author)
   end
 
-  def list_books(index: false)
+  def list_people(index: false)
     if index
       @books.each_with_index { |book, index| puts "#{index}) Title: #{book.title}, Author: #{book.author}" }
     else
@@ -81,6 +83,7 @@ class App
       type = person.instance_of?(Student) ? 'Student' : 'Teacher'
       puts "#{index}) [#{type}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
     end
+
     person_index = gets.chomp.to_i
     print 'Date: '
     date = gets.chomp
@@ -91,6 +94,7 @@ class App
   def list_rentals
     print 'ID of person: '
     id = gets.chomp.to_i
+    
     get_rental(id)
   end
 end
