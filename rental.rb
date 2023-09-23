@@ -6,8 +6,8 @@ class Rental
     @book = book
     @person = person
 
-    book.add_rental(self)
-    person.add_rental(self)
+    @book = book
+    book.rentals << self
   end
 
   attr_reader :person
