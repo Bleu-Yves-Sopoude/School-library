@@ -71,7 +71,6 @@ class App
   end
 
   def create_rental
-
     puts 'Select a book from the following list by number'
     @books.each_with_index do |book, index|
       puts "#{index}) Title: \"#{book.title}\", Author: #{book.author}"
@@ -87,20 +86,11 @@ class App
     date = gets.chomp
     Rental.new(date, @books[book_index], @people[person_index])
     puts 'Rental created successfully'
-
   end
 
   def list_rentals
     print 'ID of person: '
     id = gets.chomp.to_i
-    puts 'Rentals:'
-    @people.each do |person|
-      next unless person.id == id
-
-      person.rentals.each do |rental|
-        puts rental
-      end
-    end
-    puts ''
+    get_rental(id)
   end
 end
