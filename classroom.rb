@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # classroom.rb
 class Classroom
   attr_accessor :label

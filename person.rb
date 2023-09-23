@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require './nameable'
 require './trimmer'
 require './capitalize'
@@ -26,8 +24,8 @@ class Person < Nameable
     @name
   end
 
-  def add_rental(date, book)
-    Rental.new(date, book, self)
+  def add_rental(rental)
+    @rentals << rental
   end
 
   private
